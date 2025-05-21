@@ -61,6 +61,7 @@
 本ガイドは Creative Commons Attribution License 4.0 (CC-BY-4.0)の下にライセンスされています。(Comment:＞ライセンスはこれでいい?)
 
 ### 2. 用語と定義  
+<!--
 [OpenChain Telco SBOM Guide Version 1.1の 2.用語と定義](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_JP.md#2-%E7%94%A8%E8%AA%9E%E3%81%A8%E5%AE%9A%E7%BE%A9) を継承する。  
 
 本章では、SBOM、SPDX、CycloneDX、purl、依存関係など、本ガイドで使用する専門用語の定義を統一し、混乱や誤解が生じないよう基盤知識を整理する。
@@ -68,7 +69,7 @@
 > 主にCDXの説明追加。他にも必要な単語やフレーズがあれば適宜追加ください。1名。  
 
 担当: [富田]  
-
+-->
 ### 3. 基本要求事項  
 [OpenChain Telco SBOM Guide Version 1.1の 3.要求要件](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_JP.md#3-%E8%A6%81%E6%B1%82%E8%A6%81%E4%BB%B6) を継承する。
 
