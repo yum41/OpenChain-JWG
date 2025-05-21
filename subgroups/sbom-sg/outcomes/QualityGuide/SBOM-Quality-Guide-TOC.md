@@ -70,6 +70,42 @@
 
 担当: [富田]  
 -->
+
+本文書内のキーワード "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY",  "OPTIONAL"は、BCP 14 [[RFC2119]](https://www.ietf.org/rfc/rfc2119.txt) [[RFC8174]](https://www.ietf.org/rfc/rfc8174.txt) に記述されているとおりに解釈される。
+
+### データ形式
+データ形式とは、SBOM内の情報のデータ形式を意味する。可能なデータ形式として、SPDX、Cyclone DX、SWID、その他の独自形式、がある。
+
+### 事業体
+事業体（entity）とは、第三者（他の組織または個人など）にソフトウェアを頒布する法人（営利、非営利、または、個人）を意味する。事業体には、グループ会社、事業体の共通支配下にある会社、は含まれない。
+
+### ソフトウェア部品表
+ソフトウェア部品表（SBOM）とは、ソフトウェアを構築する際に使用される様々なソフトウェアコンポーネントの詳細とサプライチェーンの関係を含む正式な記録である。
+
+### SBOMタイプ
+SBOMは以下のいずれかのタイプである：
+* Design,
+* Source,
+* Build,
+* Analyzed,
+* Deployed,
+* Runtime.
+
+これらタイプの定義については[CISA document](https://www.cisa.gov/sites/default/files/2023-04/sbom-types-document-508c.pdf)を参照すること。
+
+
+### SPDX
+SPDX（Software Package Data Exchange）とは、[ISO標準(ISO/IEC 5962:2021)](https://www.iso.org/standard/81870.html)であり、ソフトウェアパッケージのSBOMを相互に交換するための規格であり、関連するライセンスや著作権情報も含まれる。この標準は[Linux Foundation  SPDXプロジェクト](https://spdx.dev/)によって作成されている。
+
+### OpenChain
+OpenChainとは、 [OpenChain Specification ISO/IEC 5230:2020](https://www.iso.org/standard/81039.html)を意味し、オープンソースソフトウェアを組み込んだソフトウェアソリューションを相互に交換する組織間の信頼を構築するベンチマークを提供するために、質の高いオープンソースライセンスコンプライアンスプログラムの主要な要件を規定した国際規格である。 OpenChain Specificationは、Linux Foundationの [OpenChain project](https://www.openchainproject.org)によって作成されている。
+
+### 推移的依存性
+推移的依存性(transitive dependencies)とは、ソフトウェアの実行に必要なすべての ソフトウェアコンポーネントのことである。直接的な依存関係ではないパッケージの依存関係（間接的な依存関係：依存先の依存先）も含まれる。
+
+### パッケージURL（PURL）
+パッケージURL（PURL）とは、ソフトウェアパッケージを一意に識別するためのデファクトスタンダードである。
+
 ### 3. 基本要求事項  
 [OpenChain Telco SBOM Guide Version 1.1の 3.要求要件](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_JP.md#3-%E8%A6%81%E6%B1%82%E8%A6%81%E4%BB%B6) を継承する。
 
